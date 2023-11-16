@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agroponics Farms & Consults</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="./images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME </a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">PRODUCTS/SERVICES</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+                <h1>Agroponics Farms & Consults</h1>
+                <p>Your source for soiless farming, Optimal veggie growth,<br> Greenhouse construction and Home garden setup.</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+
+        </section>
+
+<!-------------Our Services---------------->
+
+<section class="services">
+    <h1>Our Services</h1>
+    <p>We offer specialized services in:</p>
+    <div class="row">
+        <div class="service-col">
+            <h3>Farm Education & Consultation</h3>
+            <p>You need the best farm practices to adopt in owing and increasing your farm yield. 
+                Our Seasoned professionals are at beck to provide you with their expertise.</p>
+        </div>
+        <div class="service-col">
+            <h3>Greenhouse Construction</h3>
+            <p>Modern farming entails continuous crop production. With over 20 greenhouses built, 
+                we are your best bet at owing a cost effective greenhouse.</p>
+        </div>
+        <div class="service-col">
+            <h3>Home Garden Setup</h3>
+            <p>Growing your own food is a sure way of ensuring food safety and reduction of food costs.
+                Learn how to setup a feasible home garden.</p>
+        </div>
+    </div>
+</section>
+
+<!----------------Products------------------->
+<section class="products">
+    <h1>Our Products</h1>
+    <p>Our farm produce are of the best quality, grown and harvested with contigent Food Safety practices</p>
+    <div class="row">
+        <div class="products-col">
+            <img src="./images/Green.png">
+            <div class="layer">
+                <h3>GREENS</h3>
+            </div>
+        </div>
+        <div class="products-col">
+            <img src="./images/tomato.png">
+            <div class="layer">
+                <h3>TOMATOES</h3>
+            </div>
+        </div>
+        <div class="products-col">
+            <img src="./images/bell pepper.png">
+            <div class="layer">
+                <h3>BELL PEPPERS</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+<!----------------Testimonials-------------------->
+<section class="testimonials">
+    <h1>Our Customers Experience</h1>
+    <p>what our customers say</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="./images/1.png">
+            <div>
+                <p>Agroponics Farms have helped me in acheiveing my dream of owning a home garden. 
+                    The process was simple to implent and their seed variety are truly the best.</p>
+                    <h3>Dems Oluwadems</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="./images/2.png">
+            <div>
+                <p>Of the few agricultural companies, Agroponics Farms are true to
+                    their goal of making Agriculture less of a tedious process and more of fun whilst still been pratical.</p>
+                    <h3>John D. Doe</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------Call to Action--------------->
+
+<section class="cta">
+    <h1>Contact us from any part of<br>the country for your farm needs</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!---------------Footer--------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are on a mission to grow the future by promoting sustainable agriculture,<br>
+        make it possible to achieve Zero Hunger and bring out the fun and beauty of farming.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p> Designed by @adebytes</p>
+</section>
+
+        <!--------javascript for toggle menu----------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }    
+        </script>
+    </body>
+</html>
